@@ -107,7 +107,7 @@ const changePos = (el) =>{
 let sizes = document.querySelector('.sizes');
 
 sizes.addEventListener('click',(event)=>{
-    if(event.target.tagName==='a'){
+    if(event.target.tagName==='A'){
         sizes.querySelectorAll('a').forEach(el=>el.classList.remove('active'));
         event.target.classList.add('active');
         changeField();
